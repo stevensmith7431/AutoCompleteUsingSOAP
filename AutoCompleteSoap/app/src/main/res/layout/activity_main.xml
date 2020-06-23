@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+
+    <AutoCompleteTextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/nameid"
+        android:hint=""
+        android:textAllCaps="true"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/edittextborder"
+        android:textColor="#000000">
+
+    </AutoCompleteTextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stud Name" />
+
+
+    <AutoCompleteTextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/nameid1"
+        android:hint=""
+        android:textAllCaps="true"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/edittextborder"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butid"
+        android:text="camera"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/cameraid"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edittextborder">
+
+    </ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextid"
+        android:text="Next"/>
+
+</LinearLayout>
